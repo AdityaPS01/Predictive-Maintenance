@@ -1,0 +1,14 @@
+DATASET SETUP — READ THIS FIRST
+
+1. Open the official UCI Machine Learning Repository page:
+   https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+2. Download the AI4I 2020 Predictive Maintenance Dataset from UCI.
+3. Locate the CSV file named ai4i2020.csv (the download may be inside an archive).
+4. Place the CSV in this folder so the path is exactly:
+   Predictive_Maintenance_Phase1/data/ai4i2020.csv
+5. Do not rename its column headers. The project expects the official AI4I 2020 columns.
+6. From the project root run:
+   python3 generate_charts.py
+   python3 ui/app.py
+
+The CSV is intentionally not included in this ZIP. No fake or synthetic replacement data is used by this application.
